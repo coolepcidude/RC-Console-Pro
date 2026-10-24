@@ -1,5 +1,6 @@
 # RC Console Pro
 *rc stands for rapid counter. Named after an old scatch project I made where you type in a method of counting, and it would count that high (e.g. binary, powers of 2 ect.).
+Try it here: https://coolepcidude.github.io/RC-Console-Pro/
 ## Current Commands
 N/A\\
 ## Future Command Ideas
