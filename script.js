@@ -7,6 +7,6 @@ textInput.addEventListener('keydown', function(event) {
         console.log(textInput);
         const newLog = document.createElement('pre');
         newLog.textContent = textInput.innerText
-        logOutput.insertBefore(newLog);
+        logOutput.appendChild(newLog);
     }
 });
