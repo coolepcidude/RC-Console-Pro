@@ -1,5 +1,5 @@
 const textInput = document.getElementById('textInput');
-const logoutput = document.getElementById('logs')
+const logOutput = document.getElementById('logs')
 
 textInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
@@ -7,6 +7,6 @@ textInput.addEventListener('keydown', function(event) {
         console.log(textInput);
         const newLog = document.createElement('pre');
         newLog.textContent = textInput.innerText
-        document.logs.appendChild(newLog);
+        document.logOuput.appendChild(newLog);
     }
 });
