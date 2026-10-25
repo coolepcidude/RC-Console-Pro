@@ -2,7 +2,7 @@
 *rc stands for rapid counter. Named after an old scatch project I made where you type in a method of counting, and it would count that high (e.g. binary, powers of 2 ect.).
 Try it here: https://coolepcidude.github.io/RC-Console-Pro/
 ## Current Commands
-N/A\\
+N/A
 ## Future Command Ideas
 (Feel free to submit ideas in the issues section of the github repository. also send any bugs you find.)
 /help - obviously shows all
