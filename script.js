@@ -40,8 +40,8 @@ current commands:
 textInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         event.preventDefault();
-        if (commands[commands]) {
-            commands[commands]();
+        if (textInput.textContent in commands) {
+           commands[textInput.textContent]  
         } else {
             addlogs("Unknown command: " + textInput.textContent)
         }
